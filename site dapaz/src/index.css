@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif; /* Exemplo de fonte moderna e elegante */
+  background-color: #FFF8F0; /* Um tom de creme/off-white suave para o fundo */
+  color: #4A3B31; /* Um marrom escuro para texto principal, para boa legibilidade */
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: #8B5E3C; /* Tom de marrom para os botões do swiper */
+}
+
+.swiper-pagination-bullet-active {
+  background: #8B5E3C;
+}
